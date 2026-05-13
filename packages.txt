@@ -1,7 +1,6 @@
 libgl1
+
 libsm6
+
 libxrender1
-ffmpeg
-libavcodec-dev
-libavformat-dev
-libavdevice-dev
+ 
