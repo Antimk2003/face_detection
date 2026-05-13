@@ -7,6 +7,9 @@ import os
 import urllib.request
 import base64
 
+os.environ["OPENCV_IO_ENABLE_OPENEXR"] = "0"
+os.environ["MPLBACKEND"] = "Agg"
+os.environ["OMP_NUM_THREADS"] = "1"
 # ─── PAGE CONFIG ──────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="EmotiSense AI",
