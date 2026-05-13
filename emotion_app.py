@@ -44,7 +44,7 @@ def load_model():
         os.environ["MPLBACKEND"] = "Agg"
         os.environ["OPENCV_IO_ENABLE_OPENEXR"] = "0"
         from ultralytics import YOLO
-        HF_URL = "https://huggingface.co/ritesht04/emotion_model/resolve/main/emotion_best.pt"
+        HF_URL = "https://huggingface.co/akser-123/face_detection/resolve/69bd802ad6e316ae1bd3b7ac4c14d3ba93cb5177/emotion_best.pt"
         local  = "emotion_best.pt"
         if not os.path.exists(local):
             urllib.request.urlretrieve(HF_URL, local)
